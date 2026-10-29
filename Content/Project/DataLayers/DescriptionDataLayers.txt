@@ -1,0 +1,39 @@
+NOMENCLATURE ET DESCRIPTIF DES 12 DATA LAYERS DU PROJET
+============================================================
+
+[EDITOR] DL_Blockout
+ -> Formes geometriques temporaires (grayboxing, volumes de test, reperes d'echelle).
+
+[EDITOR] DL_DesignNotes
+ -> Textes 3D, fleches et reperes visuels pour l'equipe (non visibles en jeu).
+
+[RUNTIME] DL_Terrain
+ -> Landscape principal, falaises de bordure et roches structurelles de fondation.
+
+[RUNTIME] DL_Architecture
+ -> Batiments, structures modulaires, murs, sols, escaliers, toits.
+
+[RUNTIME] DL_Props
+ -> Petits objets decoratifs statiques, meubles, caisses, set dressing.
+
+[RUNTIME] DL_Foliage
+ -> Vegetation, arbres, herbe, buissons.
+
+[RUNTIME] DL_Lighting
+ -> Directional Light, SkyAtmosphere, Skylight, Exponential Height Fog, PostProcess.
+
+[RUNTIME] DL_Audio
+ -> Ambiances sonores spatialisees, emetteurs audio environnementaux, reverb.
+
+[RUNTIME] DL_VFX
+ -> Systemes de particules Niagara environnementaux (fumee, etincelles, feuilles).
+
+[RUNTIME] DL_Gameplay
+ -> Player Starts, Triggers d'evenements, volumes bloquants, Checkpoints, NavMesh.
+
+[RUNTIME] DL_Spawners
+ -> Points de reapparition des ennemis, butins (loots), pickups.
+
+[RUNTIME] DL_Cinematics
+ -> Cameras de cinematiques et acteurs de mise en scene narrative.
+
